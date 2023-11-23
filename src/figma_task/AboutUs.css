@@ -1,0 +1,37 @@
+.paragraph{
+    padding: 120px 0 ;
+    width: 600px;
+    height: 400px;
+    margin: auto;
+}
+
+.paragraph p {
+    font-family: Inter;
+     color:  #141D24;
+     font-size: 18px;
+     font-weight: 400;
+}
+.paragraph h1{
+    text-align: center;
+}
+
+.aboutus_photo {
+    background-image:  url("../img/AboutUs.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 400px;
+    margin: auto;
+    width: 1296px;
+    border-radius: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+}
+.aboutus_photo h1 {
+    font-size: 50px;
+}
+.aboutus_photo p{
+    font-size: 25px;
+}

@@ -1,0 +1,120 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+.aaa {
+    
+    background-color: #F5F7FA;
+
+}
+.forcolor {
+    display: flex;
+    justify-content: space-between;
+    height: 48px;
+    max-width: 1296px;
+    margin: auto;
+}
+.forcolor  h4{
+    align-items: center;
+    margin: 15px;
+}
+
+.header_container{
+    display: flex;
+    align-items: center;
+}
+
+
+.header_container ul{
+    display: flex;
+    gap: 30px;
+    list-style-type: none;
+    margin: 20px;
+}
+
+
+.header_container2{
+    height: 100px;
+    max-width: 1296px;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+
+.header_container2 ul {
+    display: flex;
+    gap: 30px;
+    list-style-type: none;
+    margin: 20px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-weight: bold;
+  font-size: 18px;
+}
+
+
+.feel {
+    width:165px;
+    height: 40px;
+    padding: 8px, 16px, 8px, 16px;
+    border-radius: 100px;
+    gap: 8px;
+    font-size: 16px;
+    color: white;
+    border-style: none;
+    background-color: #4A21EF;
+    margin: 0 20px 0 0;
+    cursor: pointer;
+}
+
+
+.header_login{
+    width:75px;
+    height:40px;
+    padding: 8px, 16px, 8px, 16px;
+    border-radius: 100px;
+    gap: 8px;
+    font-size: 16px;
+    color: blue;
+    border-style: none;
+    cursor: pointer;
+}  
+
+.buttons{
+    display: flex;
+}
+
+.money_part_hidden{
+    display: none;
+}
+
+
+.money_part_show{
+    width: 100px;
+    height: 85px;
+    margin-left: -80px;
+    margin-top: -40px;
+    background-color: #F5F7FA;
+    padding: 10px ;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    overflow: hidden;
+}
+
+
+
+.link_1 {
+    text-decoration: none;
+    color : black;
+}
+.moneys{
+    display: flex;
+    justify-content: space-between;
+    gap: 10px;
+    
+}

@@ -1,0 +1,20 @@
+
+
+#contact_image img {
+    width: 1620px;
+    padding-left: 240px;
+
+}
+.Emails{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    width: 1200px;
+    margin: auto;
+    padding: 100px;
+}
+.Emails p{
+    font-size: 18px;
+}
+.goy_reng {
+    color: blue;
+}

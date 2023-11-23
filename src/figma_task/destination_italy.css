@@ -1,0 +1,151 @@
+
+.destination_italy {
+    background-image:  url("../img/Destinations.gif");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 672px;
+    margin: auto;
+    width: 1296px;
+    border-radius: 30px;
+}
+
+
+.italy_plan{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 30px;
+}
+.destination_italy h1 {
+    font-size: 50px;
+    color: white;
+    margin: 200px 0 0 0;
+}
+#italy_plan_trip{
+    font-size: 25px;
+    color: white;
+}
+#italy_plan_create {
+    size: 18px;
+    color: white;
+    border: 1px solid blue;
+    border-radius: 20px;
+    background-color: blue;
+    padding: 10px 20px;
+    margin: 0 0  150px 0 ;
+}
+.italy_icons{
+    display: flex;
+    width: 1000px;
+    margin: auto;
+    gap: 50px;
+    color: white;
+}
+
+.italy_icon_item {
+    display: flex;
+    gap: 10px;
+}
+.italy_icons p {
+    margin: 10px 25px ;
+}
+.available_trips{
+    margin: 100px;
+    text-align: center;
+}
+.italy_mini_image{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    width: 1300px;
+    margin: auto;
+    gap: 25px;
+}
+#map_image{
+    width: 100%;
+    margin: 100px 0;
+}
+
+#italy_mini_image{
+    width: 400px;
+}
+.must_see {
+    width: 402px;
+    border: 1px solid gray;
+    border-radius: 20px;
+    margin: 100px;
+}
+.muzey_expression{
+    padding: 10px;
+}
+.muzey_expression p {
+    font-size: 17px;
+}
+#museum_for_flex{
+    width: 1400px;
+    margin: auto;
+    display: grid;
+    grid-template-columns: repeat(3,400px);
+    gap: 40px;
+}
+.italy_last_image {
+    position: relative;
+    background-image: url("../img/italy_lastphoto.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 800px;
+    margin: 0 0 100px 0;
+}
+.last_image_container{
+    background-color: white;
+    border-radius: 10px;
+    position: absolute;
+    right: 200px;
+    bottom: 200px;
+    padding: 24px;
+    height: 120px;
+    width: 416px;
+    font-size: 18px;
+}
+
+.last_image_container_2{
+    background-color: white;
+    border-radius: 10px;
+    position: absolute;
+    right: 200px;
+    bottom: 70px;
+    padding: 24px;
+    height: 120px;
+    width: 416px;
+    font-size: 18px;
+    display: flex;
+    gap: 15px;
+}
+.last_image_container_2 h4 {
+    margin: 45px 0 0 0 ;
+    padding: 0 0 0 20px;
+    border-left: 1px solid gray;
+}
+
+.italy_lastpart{
+    display: flex;
+    background-color: #F5F7FA;
+    border-radius: 15px;
+    padding: 32px;
+    width: 416px;
+    height: 192px;
+}
+#last_part_image{
+    width: 60px;
+    height: 60px;
+    margin: 0 15px 0 0;
+}
+.last_pard_grid{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    width: 1300px;
+    margin:  50px auto;
+    gap: 30px;
+}
+#expert_basliq{
+    text-align: center;
+}

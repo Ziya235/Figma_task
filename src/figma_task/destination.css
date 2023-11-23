@@ -1,0 +1,46 @@
+
+.destiantion_first_photo{
+    background-image: url("../img/Destinations.gif");
+    background-repeat: no-repeat;
+    max-width: 1296px;
+    height: 672px;
+    margin: auto;
+    border-radius: 30px;
+}
+.countries  {
+    display: grid;
+    grid-template-columns: repeat(5,1fr);
+    width: 1076px;
+    margin: auto;
+    padding: 100px 0 ;
+}
+
+.countries ul li{
+    list-style-type: none;
+    
+    margin: 14px 0;
+    color: #3A4D5A;
+}
+.countries h1 {
+    color: blue;
+}
+
+.destination_last_part{
+    position: relative;
+    background-image:  url("../img/destination_last_foto.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 800px;
+    margin: 0 0 200px 0;
+  }
+
+.destination_last_part .sixContainer {
+    position: absolute;
+    right: 150px ;
+    bottom: 210px ;
+    width: 416px;
+  height:  202px;
+  padding: 24px 32px 24px 32px;
+  border-radius: 20px;
+  background-color: white;
+  }

@@ -1,0 +1,275 @@
+ 
+.firstPart{
+    background-image: url("../img/Homepage.gif");
+    background-repeat: no-repeat;
+    max-width: 1296px;
+    height: 672px;
+    margin: auto;
+    border-radius: 30px;
+}
+.first_part_yazi{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.first_part_yazi h1{
+  font-size: 70px;
+  color: white;
+}
+.first_part_yazi p{
+  font-size: 20px;
+  color: white;
+
+}
+#search_icon{
+  width: 20px;
+  height: 20px;
+  color: white;
+}
+
+.searchBox {
+    position: absolute;
+    left: 33%;
+    top: 50%;
+}
+.searchBox {
+    display: flex;
+    max-width: 450px;
+    height: 56px;
+    align-items: center;
+    justify-content: space-between;
+    gap: 8px;
+    background: white;
+    border-radius: 48px;
+    position: relative;
+  }
+  
+  .searchButton {
+    cursor: pointer;
+    color: red;
+    position: absolute;
+    right: 8px;
+    width: 50px;
+    height: 50px;
+    border-radius: 48px;
+    background-color: blue;
+    border: 0;
+    display: inline-block;
+    transition: all 300ms cubic-bezier(.23, 1, 0.32, 1);
+  }
+  /*hover effect*/
+   button:hover {
+    box-shadow: green 0 10px 20px;
+    transform: translateY(-3px);
+  }
+ 
+  
+  .searchInput {
+    width: 380px;
+    border: none;
+    background: none;
+    outline: none;
+    color: black;
+    font-size: 15px;
+    padding: 24px 46px 24px 26px;
+  }
+
+  .secondPart, .thirdPart, .seventhPart {
+    max-width: 1296px;
+    height: 400px;
+    margin: auto;
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap: 24px;
+  }
+.heading {
+  text-align: center;
+  margin: 100px 0 40px 0; 
+  font-family: 'Inter', sans-serif;
+}
+
+  .mini {
+    max-width: 416px;    
+    height: 370px;
+    border: 1px solid gray;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+  }
+.mini_alt {
+  display: flex;
+  justify-content: space-between;
+}
+
+.for_padding {
+  display: flex;
+  flex-direction: column;
+  gap: 14px;
+  padding: 16px;
+}
+
+.fourthPart{
+  max-width: 1296px;
+  height: 200px;
+  margin: auto;
+  display: grid;
+  grid-template-columns: repeat(3,1fr);
+  gap: 24px;
+
+}
+
+.why_container {
+  background-color:  #F5F7FA;
+  border-radius: 20px;
+  width: 416px;
+  height: 124px;
+  display: flex;
+  padding: 32px;
+}
+.why_container img {
+  width: 60px;
+  height: 60px;
+}
+.why_container p{
+  margin: 14px 0 0 20px ;
+  font-size: 16px;
+}
+
+.fifthPart {
+  max-width: 1296px;
+  height: 650px;
+  margin: auto;
+  position: relative;
+}
+
+.imgExpert_2 {
+  width: 583.15px ;
+height: 336px;
+position: absolute;
+left: 129px;
+}
+.imgExpert_1 {
+  width: 578.15px;
+height: 336px;
+position: absolute;
+left: 621.85px;
+top: 120px;
+}
+
+.sol{
+  width: 268px;
+  height: 114px;
+  position: absolute;
+  top: 130px;
+}
+
+.sag {
+  width: 268px;
+  height: 114px;
+  position: absolute;
+  right: 0;
+  top: 300px;
+
+}
+
+.sixthPart{
+  position: relative;
+  background-image:  url("../img/background.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 800px;
+}
+.sixthPart .sixContainer {
+  position: absolute;
+  right: 150px ;
+  bottom: 210px ;
+  width: 416px;
+height:  292px;
+padding: 24px 32px 24px 32px;
+border-radius: 20px;
+background-color: white;
+}
+.sixContainer_2{
+  display: flex;
+  position: absolute;
+  right: 150px ;
+  bottom: 100px ;
+  width: 416px;
+height:  100px;
+padding: 24px 32px;
+border-radius: 20px;
+background-color: white;
+align-items: center;
+}
+.sixContainer_2 img{
+  width: 60px;
+  height: 60px;
+}
+.tiago{
+  display: flex;
+  align-items: center;
+}
+.tiago h3{
+  margin: 0 20px 0 0;
+}
+.tiago h5{
+  padding-left: 10px;
+  border-left: 1px solid gray;
+
+}
+.tiago_yazilar p{
+  margin: 0 0 10px 0;
+}
+
+.tiago_yazilar{
+  margin: 0 0 0 20px;
+}
+
+.sixthPart .sixContainer p {
+  font-size: 18px;
+}
+.carli {
+  color : #788795;
+  font-size : "14px";
+  padding: 10px 0;  
+}
+.azour{
+  color: #3d3e3e;
+}
+
+.eightPart{
+  margin: 50px 0 0 0 ;
+  height: 192px;
+  width: 100%;
+  background-color: blue;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+}
+
+.eightPart p {
+font-family: Inter;
+font-size: 24px;
+font-weight: 600;
+line-height: 40px;
+letter-spacing: 0em;
+color: white;
+}
+.eightPart_alt{
+  
+  border: 1px solid red;
+  border-style: none;
+  padding: 3px 15px ;
+  border-radius: 50px;
+  background-color: white;
+  width: 209px;
+}
+.eightPart_alt p{
+  color: black;
+  font-size: 18px;
+  text-align: center;
+  color: blue;
+
+}

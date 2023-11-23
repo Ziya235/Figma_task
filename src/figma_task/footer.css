@@ -1,0 +1,68 @@
+.footer_1 {
+    height: 440px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.footer_submit  {
+    width: 392px;
+height: 56px;
+padding: 8px 8px  8px 24px;
+border-radius: 99px;
+border: 1px solid grey;
+gap: 24px
+}
+.footer_submit input {
+    width: 245px;
+    background: white;
+    border-radius: 48px;
+    border-style: none;
+    font-size: 18px;
+    padding: 10px;
+    outline: none;
+}
+
+.footer_submit button {
+    width: 110px;
+    font-size: 16px;
+    border-radius: 99px;
+    border: none;
+    padding: 10px ;
+    cursor: pointer;
+    background-color: blue;
+}
+
+.footer_2 {
+    height: 312px;
+    background-color: #F5F7FA;
+    padding: 50px 0 0 0;
+    
+}
+.footer_2_part1 {
+    width: 1076px;
+    margin: auto;
+    
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    
+}
+.footer_2_part1 ul {
+    list-style: none;
+}
+
+.footer_2_part1 ul li {
+    margin: 14px 0;
+    color: #3A4D5A;
+    
+}
+.footer_tourista{
+    width: 416px;
+    height: 168px;
+}
+.footer_tourista p {
+    margin: 10px 100px 90px 10px;
+}
+
+
